@@ -1,0 +1,25 @@
+.tile {
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.cover {
+  position: absolute;
+  height: 100%;
+  object-fit: fill;
+  top: 10px;
+  left: 2px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  color: white;
+  position: absolute;
+  top: 20px;
+}
+
+.kind{
+    text-transform:capitalize
+}

@@ -1,0 +1,18 @@
+<mat-grid-list class="list" cols="3" rowHeight="200px">
+  <mat-grid-tile
+    class="tile"
+    *ngFor="let item of list | async as playlists"
+    (click)="onItemClicked(item.url)"
+  >
+    <div>
+      <img class="cover" mat-card-image [src]="item.artwork" alt="Cover" />
+      <div class="info">
+        <h1>{{ item.name }}</h1>
+        <span>{{ item.curator_name }}</span>
+        <span class="kind">{{ item.kind }}</span>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+  </mat-grid-tile>
+</mat-grid-list>
+
