@@ -1,4 +1,3 @@
-This technical assessment was an enjoyable experience and presented a few interesting challenges along the way.
 
 # Steps Taken:
 ## Playlist Service and Models:
@@ -24,7 +23,7 @@ Although there is no full test coverage, I made an effort to demonstrate my test
 
 ## Conclusion:
 
-Overall, this assessment provided valuable learning opportunities and allowed me to showcase my skills in Angular development, API integration, UI design, state management with Ngrx, and unit testing. 
+Overall, this task has provided valuable learning opportunities and allowed me to showcase my skills in Angular development, API integration, UI design, state management with Ngrx, and unit testing. 
 
 I look forward to further feedback and opportunities for improvement
 
